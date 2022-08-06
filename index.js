@@ -10,7 +10,7 @@ var lastaction;
 var pi = 3.14159;
 var moveinterval = 2; // 2 second movement interval
 var maxrandom = 5; // 0-5 seconds added to movement interval (randomly)
-var host = data["ip"];
+var host = data["Microseason2.aternos.me"];
 var username = data["name"]
 var bot = mineflayer.createBot({
   host: host,
